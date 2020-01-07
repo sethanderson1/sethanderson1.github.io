@@ -4,7 +4,7 @@
     <title>Sonoran Desert Birds Quiz</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="quiz app wireframe" />
+    <meta name="description" content="Sonoran Desert Birds Quiz" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css"
@@ -13,78 +13,16 @@
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.css" type="text/css"/>
   </head>
-  <!-- Welcome Page -->
   <body>
-    <header>
-      <h1>Sonoran Desert Birds Quiz</h1>
-    </header>
-
-    <section class="container">
-      <h2 class="question">Welcome!</h2>
-      <button>Start Quiz</button>
-    </section>
-
-    <!-- Questions Page-->
-    <header>
-      <h1>Sonoran Desert Birds Quiz</h1>
-    </header>
-    <section>
-      <ul>
-        <li>Question: 0/5</li>
-        <li>Score: 0/5</li>
-      </ul>
-    </section>
-    <section class="question-and-answers">
-      <h3>A group of Gambel’s quail is known as a:</h3>
-      <input type="radio" id="option1" name="options" value="0">
-      <label for="option1">Battery</label><br>
-      <input type="radio" id="option2" name="options" value="1">
-      <label for="option2">Shake</label><br>
-      <input type="radio" id="option3" name="options" value="2">
-      <label for="option3">Drift</label><br>
-      <input type="radio" id="option4" name="options" value="3">
-      <label for="option4">Flush</label><br>
-      <input type="radio" id="option5" name="options" value="4">
-      <label for="option5">All of the above</label><br>
-      <button>Next</button>
-    </section>
-
-    <!-- Feedback Page-->
-    <header>
-      <h1>Sonoran Desert Birds Quiz</h1>
-    </header>
-    <section>
-      <ul>
-        <li>Question: 0/5</li>
-        <li>Score: 0/5</li>
-      </ul>
-    </section>
-
-    <section class="feedback">
-      <h2>Incorrect</h2>
-      <h3>The correct answer was</h3>
-      <button>Next</button>
-    </section>
-
-    <!-- Result Page-->
-    <header>
-      <h1>Sonoran Desert Birds Quiz</h1>
-    </header>
-    <section>
-      <ul>
-        <li>Question: 0/5</li>
-        <li>Score: 0/5</li>
-      </ul>
-    </section>
-
-    <section class="result">
-      <h2>Congratulations</h2>
-      <h3>You answered 5/5 questions correctly!</h3>
-      <button>Restart Quiz</button>
-    </section>
-
+    <main role="main" class="container">
+      <header>
+        <h1>Sonoran Desert Birds Quiz</h1>
+      </header>
+      <section class="js-question-number-and-score"></section>
+      <section class="js-question-and-answers"></section>
+    </main>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="index.js"></script>
   </body>
