@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  background-image: linear-gradient(
+      rgba(29, 27, 10, 0.589),
+      rgba(53, 51, 23, 0.61)
+    ),
+    url("images/desert_scene.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  min-width: 290px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 1.4em;
+  padding: 0.3em;
+  margin: 0;
+}
+
+.js-question-number-and-score {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+header h1,
+.js-question-number-and-score {
+  color: rgba(228, 227, 213, 0.808);
+}
+
+.js-question-and-answers {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  background: rgba(165, 155, 129, 0.774);
+  max-width: 450px;
+  font-size: 1.3em;
+  border: 1px solid rgba(49, 61, 129, 0.404);
+}
+
+fieldset legend, .form-options {
+  color: rgb(31, 45, 66);
+}
+
+.welcome-title {
+  font-size: 1.5em;
+  margin:3%;
+}
+
+.welcome-message {
+  font-size: 1.1em;
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.welcome-title,
+.welcome-message,
+.js-correct-or-not h3,
+.js-correct-ans-was h3,
+.result-final-score {
+  color: rgb(226, 219, 187);
+}
+
+.js-welcome, .result-final-score, .js-results {
+  text-align: center;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.form-options {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.inputs-labels {
+  display: block;
+}
+
+legend {
+  padding: 6%;
+}
+
+.js-question-image img,
+form img,
+.js-feedback-image img,
+.js-display-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  border: 2px solid rgba(78, 78, 141, 0.24);
+  border-radius: 9px;
+}
+
+.js-correct-or-not h3,
+.js-correct-ans-was h3 {
+  text-align: center;
+  margin:5%;
+}
+
+.js-correct-or-not h3 {
+  font-size: 1.8em;
+}
+
+button {
+  margin: 10px;
+}
